@@ -1,0 +1,35 @@
+.main {
+    height: 500px;
+    padding: 200px 100px;
+    background: url('../../photo/main-photo.jpg') center 50%/cover no-repeat;
+}
+
+.text {
+    display: block;
+    width: 460px;
+}
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+    .main {
+        height: 400px;
+        padding: 150px 80px;
+    }
+}
+@media (max-width: 576px) {
+    .main {
+        height: 200px;
+        padding: 70px 40px;
+    }
+    .text {
+        width: 260px;
+    }
+}
+@media (max-width: 320px) {
+
+}

@@ -1,0 +1,74 @@
+.item {
+    max-width: 400px;
+    padding: 5px;
+}
+
+.img {
+    height: 330px;
+    border-radius: 15px 15px 0 0;
+}
+.todo {
+    background: url("../../photo/todolist.png") center 50%/cover no-repeat;
+}
+.social {
+    background: url("../../photo/socialNetwork.jpg") center 50%/cover no-repeat;
+}
+
+.descr {
+    padding: 10px;
+}
+
+.stack {
+    text-align: left;
+    color: #d99e9e;
+    padding: 10px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.link__img {
+    width: 25px;
+    color: #DA7B93;
+}
+
+.link__title {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+    .item {
+        width: 350px;
+    }
+}
+@media (max-width: 768px) {
+    .item {
+        width: 450px;
+    }
+}
+@media (max-width: 576px) {
+    .item {
+        width: 280px;
+    }
+}
+@media (max-width: 320px) {
+
+}
