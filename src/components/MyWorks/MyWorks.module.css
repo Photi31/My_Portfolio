@@ -8,12 +8,6 @@
     border-radius: 15px 15px 0 0;
     cursor: pointer;
 }
-.todo {
-    background: url("../../photo/todolist.png") center 50%/cover no-repeat;
-}
-.social {
-    background: url("../../photo/socialNetwork.jpg") center 50%/cover no-repeat;
-}
 
 .descr {
     padding: 10px;

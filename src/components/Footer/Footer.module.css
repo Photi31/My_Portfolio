@@ -16,6 +16,7 @@
     padding: 40px;
 }
 .social__link {
+    height: 30px;
     width: 500px;
     margin: 0 auto;
     display: flex;
