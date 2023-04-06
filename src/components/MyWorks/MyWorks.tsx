@@ -4,7 +4,7 @@ import s2 from '../MySkils/MySkils.module.css';
 import s from './MyWorks.module.css';
 import {WorkCard} from "./WorkCard/WorkCard";
 
-export type WorkType = {id: string, src: string, title: string, description: string, stack: string, deploy?: string, github?: string}
+export type WorkType = {id: string, src: string, title: string, description: string, stack: string}
 
 type MyWorksType = {
     state: WorkType[]

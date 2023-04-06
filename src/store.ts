@@ -15,12 +15,10 @@ export const store = {
         myWorks: [
             {
                 id: v1(),
-                src: "../../photo/todolist.png",
+                src: "../../../photo/todolist.png",
                 title: 'ToDo List',
                 description: 'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content',
-                stack: 'Tech stack : HTML , JavaScript, SASS, React',
-                deploy: '#',
-                github: '#'
+                stack: 'Tech stack : HTML , JavaScript, SASS, React'
             },
             {id: v1(), src: "../../photo/socialNetwork.jpg", title: 'Social Network', description: 'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content', stack: 'Tech stack : HTML , JavaScript, SASS, React'},
         ]
