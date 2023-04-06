@@ -1,33 +1,48 @@
 .main {
     height: 500px;
     padding: 200px 100px;
-    background: url('../../photo/main-photo.jpg') center 50%/cover no-repeat;
+    background: url('../../photo/main.jpeg') center 50%/cover no-repeat;
 }
 
 .text {
     display: block;
-    width: 460px;
+    width: 570px;
 }
 
 @media (max-width: 1200px) {
-
+    .main {
+        height: 400px;
+        padding: 155px 60px;
+    }
+    .text {
+        width: 520px;
+    }
 }
 @media (max-width: 1024px) {
-
+    .main {
+        height: 400px;
+        padding: 155px 40px;
+    }
+    .text {
+        width: 425px;
+    }
 }
 @media (max-width: 768px) {
     .main {
         height: 400px;
-        padding: 150px 80px;
+        padding: 130px 40px;
+    }
+    .text {
+        width: 330px;
     }
 }
 @media (max-width: 576px) {
     .main {
         height: 200px;
-        padding: 70px 40px;
+        padding: 75px 20px;
     }
     .text {
-        width: 260px;
+        width: 213px;
     }
 }
 @media (max-width: 320px) {

@@ -10,7 +10,9 @@ export const MyWorks = () => {
     return (
         <div className={s1.container}>
             <div className={s1.blockTitleContainer}>
-                <div className={s1.title_fz16 + ' ' + s.subtitle}>Портфолио</div>
+                <div className={s1.title_container}>
+                    <div className={s1.title_fz16 + ' ' + s.subtitle}>Портфолио</div>
+                </div>
                 <div className={s1.title_fz36 + ' ' + s.title}>Мои работы</div>
                 <div className={s1.line}></div>
             </div>
@@ -22,11 +24,11 @@ export const MyWorks = () => {
                     <div className={s.stack}>Tech stack : HTML , JavaScript, SASS, React</div>
                     <div className={s.links}>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${link}`}/>
+                            <img alt={'linc deploy'} className={s.link__img} src={`${link}`}/>
                             <div className={s.link__title}>Live Preview</div>
                         </div>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${github}`}/>
+                            <img alt={'github'} className={s.link__img} src={`${github}`}/>
                             <div className={s.link__title}>View Code</div>
                         </div>
                     </div>
@@ -38,11 +40,11 @@ export const MyWorks = () => {
                     <div className={s.stack}>Tech stack : HTML , JavaScript, SASS, React</div>
                     <div className={s.links}>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${link}`}/>
+                            <img alt={'linc deploy'} className={s.link__img} src={`${link}`}/>
                             <div className={s.link__title}>Live Preview</div>
                         </div>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${github}`}/>
+                            <img alt={'github'} className={s.link__img} src={`${github}`}/>
                             <div className={s.link__title}>View Code</div>
                         </div>
                     </div>
@@ -54,11 +56,11 @@ export const MyWorks = () => {
                     <div className={s.stack}>Tech stack : HTML , JavaScript, SASS, React</div>
                     <div className={s.links}>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${link}`}/>
+                            <img alt={'linc deploy'} className={s.link__img} src={`${link}`}/>
                             <div className={s.link__title}>Live Preview</div>
                         </div>
                         <div className={s.link}>
-                            <img className={s.link__img} src={`${github}`}/>
+                            <img alt={'github'} className={s.link__img} src={`${github}`}/>
                             <div className={s.link__title}>View Code</div>
                         </div>
                     </div>

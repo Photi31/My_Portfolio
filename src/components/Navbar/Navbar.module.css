@@ -1,5 +1,5 @@
 .navbar {
-
+    background: #2F4454;
 }
 
 .list {
@@ -11,16 +11,16 @@
     list-style: none;
     font-size: 20px;
     line-height: 26px;
-    color: #DA7B93;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
 .item:hover:after {
     content: '';
-    margin-top: 5px;
+    margin-top: 4px;
     display: block;
     height: 2px;
-    background: #DA7B93;
+    background: var(--primary-color);
 }
 
 @media (max-width: 1200px) {
@@ -41,6 +41,10 @@
         gap: 10px;
         font-size: 13px;
         line-height: 18px;
+    }
+    .item:hover:after {
+        margin-top: 0;
+        height: 1px;
     }
 }
 @media (max-width: 320px) {

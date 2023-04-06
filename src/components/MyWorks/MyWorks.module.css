@@ -6,6 +6,7 @@
 .img {
     height: 330px;
     border-radius: 15px 15px 0 0;
+    cursor: pointer;
 }
 .todo {
     background: url("../../photo/todolist.png") center 50%/cover no-repeat;
@@ -43,7 +44,6 @@
 
 .link__img {
     width: 25px;
-    color: #DA7B93;
 }
 
 .link__title {
@@ -67,6 +67,19 @@
 @media (max-width: 576px) {
     .item {
         width: 280px;
+    }
+    .link {
+        gap: 6px;
+        width: 107px;
+    }
+
+    .link__img {
+        width: 18px;
+    }
+
+    .link__title {
+        font-size: 15px;
+        line-height: 24px;
     }
 }
 @media (max-width: 320px) {

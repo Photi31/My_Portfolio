@@ -4,6 +4,8 @@ import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 import {MySkils} from "./components/MySkils/MySkils";
 import {MyWorks} from "./components/MyWorks/MyWorks";
+import {Contacts} from "./components/Contacts/Contacts";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <Main/>
             <MySkils/>
             <MyWorks/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
