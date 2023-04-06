@@ -11,13 +11,10 @@ import social from '../../../photo/socialNetwork.jpg'
 type WorkCardType = {
     state: WorkType
 }
-//{background: `url(${props.state.src}) center 50%/cover no-repeat;`}
 export const WorkCard = (props: WorkCardType) => {
     return (
         <div className={s2.item + ' ' + s.item} key={props.state.id}>
-            <div className={s.img}>
-                <img src={props.state.title === 'ToDo List' ? todo : social}/>
-            </div>
+            <img className={s.img} src={props.state.title === 'ToDo List' ? todo : social}/>
             <div className={s2.item__title}>{props.state.title}</div>
             <div className={s2.descr + ' ' + s.descr}>{props.state.description}</div>
             <div className={s.stack}>{props.state.stack}</div>
