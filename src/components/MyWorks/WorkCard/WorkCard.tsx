@@ -12,17 +12,19 @@ type WorkCardType = {
 export const WorkCard = (props: WorkCardType) => {
     return (
         <div className={s2.item + ' ' + s.item} key={props.state.id}>
-            <img alt={`${props.state.title}`} className={s.img} src={props.state.src}/>
+            <div className={s.img__container}>
+                <a href={'#'}><img alt={`${props.state.title}`} className={s.img} src={props.state.src}/></a>
+            </div>
             <div className={s2.item__title + ' ' + s.item__title}>{props.state.title}</div>
             <div className={s2.descr + ' ' + s.descr}>{props.state.description}</div>
             <div className={s.stack}>{props.state.stack}</div>
             <div className={s.links}>
                 <div className={s.link}>
-                    <img alt={'linc deploy'} className={s.link__img} src={deploy}/>
+                    <a href={'#'}><img alt={'linc deploy'} className={s.link__img} src={deploy}/></a>
                     <div className={s.link__title}>Live Preview</div>
                 </div>
                 <div className={s.link}>
-                    <img alt={'github'} className={s.link__img} src={github}/>
+                    <a href={'#'}><img alt={'github'} className={s.link__img} src={github}/></a>
                     <div className={s.link__title}>View Code</div>
                 </div>
             </div>
