@@ -5,7 +5,7 @@ import {WorkType} from "../MyWorks";
 import deploy from '../../../icons/link-bold.svg'
 import github from '../../../icons/github.svg'
 
-
+//<img alt={`${props.state.title}`} className={s.img} src={props.state.src}/>
 type WorkCardType = {
     state: WorkType
 }
@@ -13,7 +13,13 @@ export const WorkCard = (props: WorkCardType) => {
     return (
         <div className={s2.item + ' ' + s.item} key={props.state.id}>
             <div className={s.img__container}>
-                <a href={'#'}><img alt={`${props.state.title}`} className={s.img} src={props.state.src}/></a>
+                <a href={'#'}>
+                    <div className={s.img} style={{background: `url(${props.state.src})`,
+                                                    backgroundSize: 'cover',
+                                                    backgroundPosition: 'center'}}>
+
+                    </div>
+                </a>
             </div>
             <div className={s2.item__title + ' ' + s.item__title}>{props.state.title}</div>
             <div className={s2.descr + ' ' + s.descr}>{props.state.description}</div>
