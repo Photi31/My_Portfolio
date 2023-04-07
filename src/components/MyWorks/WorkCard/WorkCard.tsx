@@ -4,8 +4,6 @@ import s from '../MyWorks.module.css';
 import {WorkType} from "../MyWorks";
 import deploy from '../../../icons/link-bold.svg'
 import github from '../../../icons/github.svg'
-import todo from '../../../photo/todolist.png'
-import social from '../../../photo/socialNetwork.jpg'
 
 
 type WorkCardType = {
@@ -14,8 +12,8 @@ type WorkCardType = {
 export const WorkCard = (props: WorkCardType) => {
     return (
         <div className={s2.item + ' ' + s.item} key={props.state.id}>
-            <img className={s.img} src={props.state.title === 'ToDo List' ? todo : social}/>
-            <div className={s2.item__title}>{props.state.title}</div>
+            <img alt={`${props.state.title}`} className={s.img} src={props.state.src}/>
+            <div className={s2.item__title + ' ' + s.item__title}>{props.state.title}</div>
             <div className={s2.descr + ' ' + s.descr}>{props.state.description}</div>
             <div className={s.stack}>{props.state.stack}</div>
             <div className={s.links}>
