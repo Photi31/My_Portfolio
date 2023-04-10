@@ -14,12 +14,12 @@
 .item {
     padding: 10px;
     max-width: 300px;
-    border: 2px solid #2a5454;
-    box-shadow: 0 0 7px 7px rgba(55, 110, 111, .6);
+    border: 2px solid #25506c;
+    box-shadow: 0 0 7px 7px rgba(41, 100, 138, .6);
     border-radius: 20px;
     text-align: center;
     color: #d3d1d1;
-    background: #263b4d;
+    background: #36374f;
 }
 
 .img {

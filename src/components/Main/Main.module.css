@@ -8,6 +8,12 @@
     display: block;
     width: 570px;
 }
+.title, .subtitle{
+    color: var(--background-color);
+}
+.subtitle:before {
+    background: var(--primary-color);
+}
 
 @media (max-width: 1200px) {
     .main {
