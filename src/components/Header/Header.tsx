@@ -6,11 +6,11 @@ import {Navbar} from "../Navbar/Navbar";
 
 export const Header = () => {
     return (
-        <div className={s1.container}>
+        <div className={s.headerBlock}>
             <header className={s.header}>
                 <Navbar/>
             </header>
+            <div className={s1.dividedLine}></div>
         </div>
-
     )
 }

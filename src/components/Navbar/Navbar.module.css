@@ -1,5 +1,6 @@
 .navbar {
-    background: #36374f;
+    background: none;
+
 }
 
 .list {
@@ -13,6 +14,12 @@
     line-height: 26px;
     color: var(--primary-color);
     cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: var(--primary-color);
+
 }
 
 .item:hover:after {
@@ -38,8 +45,8 @@
 }
 @media (max-width: 576px) {
     .list {
-        gap: 10px;
-        font-size: 13px;
+        gap: 20px;
+        font-size: 15px;
         line-height: 18px;
     }
     .item:hover:after {

@@ -3,7 +3,7 @@ import s1 from '../../App.module.css';
 import s from './MySkils.module.css';
 import {Skill} from "./SkillCard/SkillCard";
 
-export type SkillType = {id: string, src: string, title: string, description: string}
+export type SkillType = {id: string, src: string, title: string,}
 
 type MySkillsProps = {
     state:  SkillType[]
@@ -11,10 +11,10 @@ type MySkillsProps = {
 
 export const MySkills = (props: MySkillsProps) => {
     return (
-        <div className={s1.container}>
+        <div className={s.mySkills} id='mySkills'>
             <div className={s1.blockTitleContainer}>
                 <div className={s1.title_container}>
-                     <div className={s1.title_fz16 + ' ' + s.subtitle}>Навыки</div>
+                     <div className={s1.title_fz16 + ' ' + s.subtitle}>Технологии</div>
                 </div>
                 <div className={s1.title_fz36 + ' ' + s.title}>Что я использую в работе</div>
                 <div className={s1.line}></div>

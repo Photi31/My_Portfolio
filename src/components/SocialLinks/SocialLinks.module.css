@@ -1,0 +1,30 @@
+
+.social__link {
+    height: 30px;
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social__link_img {
+    width: 30px;
+}
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+    .social__link {
+        width: 80%;
+    }
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 320px) {
+
+}

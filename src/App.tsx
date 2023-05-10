@@ -11,12 +11,14 @@ import {MySkills} from "./components/MySkils/MySkills";
 function App() {
     return (
         <div className={s.App}>
-            <Header/>
-            <Main/>
-            <MySkills state={store.state.mySkills}/>
-            <MyWorks state={store.state.myWorks}/>
-            <Contacts/>
-            <Footer/>
+            <div className={s.container}>
+                <Header/>
+                <Main/>
+                <MySkills state={store.state.mySkills}/>
+                <MyWorks state={store.state.myWorks}/>
+                <Contacts/>
+                <Footer/>
+            </div>
         </div>
     );
 }

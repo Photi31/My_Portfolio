@@ -9,9 +9,10 @@ type SkillCardType = {
 export const Skill = (props: SkillCardType) => {
     return (
         <div className={s.item} key={props.state.id}>
-            <img alt={'html'} className={s.img} src={props.state.src}/>
+            <div className={s.img}>
+                <img alt={'html'}  src={props.state.src}/>
+            </div>
             <div className={s.item__title}>{props.state.title}</div>
-            <div className={s.descr}>{props.state.description}</div>
         </div>
 
     )

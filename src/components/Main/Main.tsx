@@ -5,7 +5,7 @@ import s from './Main.module.css';
 
 export const Main = () => {
     return (
-        <div className={s1.container}>
+        <div className={s.mainBlock} id='main'>
             <main className={s.main}>
                 <div className={s.text}>
                     <div className={s1.title_fz24 + ' ' + s.subtitle}>Меня зовут Светлана Немова</div>

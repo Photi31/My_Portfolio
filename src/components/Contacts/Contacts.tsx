@@ -1,15 +1,12 @@
 import React from 'react';
 import s1 from '../../App.module.css';
 import s from './Contacts.module.css';
-import github from '../../icons/github.svg';
-import telegram from '../../icons/telegram.svg';
-import instagram from '../../icons/instagram.svg';
-import phone from '../../icons/phone.svg';
+import {SocialLinks} from "../SocialLinks/SocialLinks";
 
 
 export const Contacts = () => {
     return (
-        <div className={s1.container}>
+        <div className={s.contactsBlock} id='contacts'>
             <div className={s1.blockTitleContainer}>
                 <div className={s1.title_container}>
                      <div className={s1.title_fz16 + ' ' + s.subtitle}>Контакты</div>
@@ -21,20 +18,7 @@ export const Contacts = () => {
                 <div className={s.photo}/>
                 <div className={s.contact__social}>
                     <h4 className={s.contact__title}>Вы можете связаться со мной любым удобным для вас способом:</h4>
-                    <div className={s.social__link}>
-                        <a href="#">
-                            <img alt={'github'} className={s.social__link_img} src={`${github}`}/>
-                        </a>
-                        <a href="#">
-                            <img alt={'telegram'} className={s.social__link_img} src={`${telegram}`}/>
-                        </a>
-                        <a href="#">
-                            <img alt={'instagram'} className={s.social__link_img} src={`${instagram}`}/>
-                        </a>
-                        <a href="#">
-                            <img alt={'phone'} className={s.social__link_img} src={`${phone}`}/>
-                        </a>
-                    </div>
+                    <SocialLinks/>
                     <form action="#" className={s.form}>
                         <h4 className={s.form__title}>Или оставьте ваши данные и я сама вам напишу:</h4>
                         <div className={s.form__input}>
@@ -53,10 +37,6 @@ export const Contacts = () => {
                         </div>
                         <div className={s.form__btns}>
                             <button className={s.button}>Отправить сообщение</button>
-                            {/*<div className={s.form__policy}>*/}
-                            {/*    <input type="checkbox" required/>*/}
-                            {/*    <span>Я согласен(а) с <a href="#">политикой конфиденциальности</a></span>*/}
-                            {/*</div>*/}
                         </div>
                     </form>
                 </div>

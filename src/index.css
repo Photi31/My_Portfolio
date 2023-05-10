@@ -1,16 +1,21 @@
 :root {
-  --primary-color: #DA7B93;
-  --secondary-color: #29648A;
-  --background-color: #464866;
+  --primary-color: #C96567;
+  --secondary-color: #2075a4;
+  --background-color: #374785;
 }
+
+/*--primary-color: #DA7B93;*/
+/*--secondary-color: #29648A;*/
+/*--background-color: #464866;*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 body {
-
   background: #F5F5F5;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

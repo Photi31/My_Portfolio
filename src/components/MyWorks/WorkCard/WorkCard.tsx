@@ -5,7 +5,6 @@ import {WorkType} from "../MyWorks";
 import deploy from '../../../icons/link-bold.svg'
 import github from '../../../icons/github.svg'
 
-//<img alt={`${props.state.title}`} className={s.img} src={props.state.src}/>
 type WorkCardType = {
     state: WorkType
 }

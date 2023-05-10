@@ -1,11 +1,8 @@
 .container {
     text-align: center;
-    background: #36374f;
+    background: #24305E;
 }
-.line {
-    height: 1px;
-    background: var(--secondary-color);
-}
+
 .name {
     margin-top: 20px;
     font-size: 36px;
@@ -13,7 +10,7 @@
     color: var(--primary-color);
 }
 .contact__social {
-    padding: 40px;
+    padding: 20px;
 }
 .social__link {
     height: 30px;

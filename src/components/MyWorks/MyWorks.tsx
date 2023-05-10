@@ -12,7 +12,7 @@ type MyWorksType = {
 
 export const MyWorks = (props: MyWorksType) => {
     return (
-        <div className={s1.container}>
+        <div className={s.myWorks} id='myWorks'>
             <div className={s1.blockTitleContainer}>
                 <div className={s1.title_container}>
                     <div className={s1.title_fz16 + ' ' + s.subtitle}>Портфолио</div>

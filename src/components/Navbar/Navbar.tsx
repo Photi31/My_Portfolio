@@ -5,17 +5,13 @@ import s from './Navbar.module.css';
 
 export const Navbar = () => {
     return (
-        <div className={s1.container}>
-            <nav className={s.navbar}>
-                <ul className={s.list}>
-                    <li className={s.item}>Home</li>
-                    <li className={s.item}>Tech Stack</li>
-                    <li className={s.item}>Projects</li>
-                    <li className={s.item}>Contacts</li>
-                    <li className={s.item}>About</li>
-                </ul>
-            </nav>
-        </div>
-
+        <nav className={s.navbar}>
+            <ul className={s.list}>
+                <li className={s.item}><a href={'#main'}>Home</a></li>
+                <li className={s.item}><a href={'#mySkills'}>Tech Stack</a></li>
+                <li className={s.item}><a href={'#myWorks'}>Projects</a></li>
+                <li className={s.item}><a href={'#contacts'}>Contacts</a></li>
+            </ul>
+        </nav>
     )
 }

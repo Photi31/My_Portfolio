@@ -1,6 +1,11 @@
 .App {
 }
 
+.dividedLine {
+    height: 1px;
+    background: var(--secondary-color);
+}
+
 .container {
     background: var(--background-color);
     max-width: 1440px;

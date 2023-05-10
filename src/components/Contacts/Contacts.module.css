@@ -1,3 +1,10 @@
+.contactsBlock {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contacts {
     padding: 40px 40px;
     display: flex;
@@ -23,15 +30,6 @@
     font-size: 20px;
     font-weight: normal;
 }
-.social__link {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
-.social__link_img {
-    width: 30px;
-}
 
 .form {
     margin-top: 14px;
@@ -46,7 +44,7 @@
 }
 .form__block > input, textarea {
     padding: 10px;
-    border: 2px solid #DA7B93;
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
     background: var(--background-color);
     font-size: 16px;
@@ -94,7 +92,7 @@
 .button {
     font-size: 20px;
     padding: 10px 40px;
-    border: 2px solid #DA7B93;
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
     background: var(--background-color);
     color: #d3d1d1;
